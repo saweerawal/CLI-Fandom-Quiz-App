@@ -53,9 +53,7 @@ for (var i=0; i<questions.length; i++)
   play(questions[i].question, questions[i].answer, questions[i].options)
 }
 
-var highestOnes = [{name : "Sawee", score : 6},
-{name : "Mayur", score : 5}
-]
+var highestOnes = [{name : "Sawee", score : 6}]
 
 console.log(chalk.green("\nYAY! You SCORED: "+ score));
 console.log("Check out the high scores, if you should be there ping me and I'll update it")
